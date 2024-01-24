@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 430px) {
+  body {
+    padding: 0;
+  }
+  .recipe-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border-radius: 0;
+  }
+  .recipe-wrapper:not(.recipe-image ) {
+    padding: 0 40px;
+    padding-top: 200px;
+  }
+  .recipe-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+  }
+}
